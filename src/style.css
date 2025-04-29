@@ -81,13 +81,22 @@ p {
 
 .button-style {
   font-family: Inter;
-  font-weight: 100;
+  font-weight: 700;
   font-size: 18px;
   background-color: #2F2F2F;
   color: #FFFFFF;
   border: none;
   padding: 12px 24px;
   border-radius: 3px;
+  cursor: pointer;
+}
+
+.button-style:hover {
+  opacity: 0.8;
+}
+
+.button-style:active {
+  opacity: 0.6;
 }
 
 .right-section {
