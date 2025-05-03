@@ -120,6 +120,9 @@ p {
   line-height: 40px;
   width: 700px;
   margin: 0px auto 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .description {
