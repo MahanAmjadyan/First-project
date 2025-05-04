@@ -1,248 +1,269 @@
-body {
-  background-color: #FFF8F0;
-  margin: 0px;
-  padding: 0px;  
+/* Base styles (extra small devices-mobiles) */
+@media screen and (min-width: 400px) {
+
+  body {
+    background-color: #fcfcfc;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .hero-section {
+    display: flex;
+    max-width: 400px;
+    margin: 0px auto 48px auto;
+  }
+
+  .left-section {
+    width: 50%;
+    padding: 5px;
+  }
+
+  .name-phone {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Roboto;
+    font-size: 8px;
+
+  }
+
+  .div-phone,
+  .div-email {
+    display: flex;
+    align-items: center;
+  }
+
+  .phone-email-image {
+    width: 10px;
+    height: 10px;
+    object-fit: cover;
+    margin-right: 2px;
+  }
+
+  .hi-im-ferdi {
+    width: 200px;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 14px;
+    color: #331E6A;
+    margin-bottom: 15px;
+  }
+
+  .title {
+    width: 220px;
+    font-family: League Spartan;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #190D37;
+  }
+
+  .subtitle {
+    width: 230px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #331E6A;
+  }
+
+  .right-section {
+    width: 50%;
+  }
+
+  .button {
+    width: 200px;
+    margin-top: 15px;
+  }
+
+  .button-style {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 12px;
+    background-color: #2F2F2F;
+    color: #FFFFFF;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  .button-style:hover {
+    opacity: 0.8;
+  }
+  
+  .button-style:active {
+    opacity: 0.6;
+  }
+
+  .what-i-do-section {
+    max-width: 400px;
+    margin: -30px auto;
+  }
+
+  .experience {
+    font-family: League Spartan;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    width: 300px;
+    margin: 0px auto 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .description {
+    width: 300px;
+    margin: -20px auto 10px auto;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    text-align: center;
+    color: #190D37;
+  }
+
+  .box-information {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .box {
+    width: 300px;
+    border: 1px solid black;
+    background-color: #FFFFFF;
+    padding: 4px;
+    margin: 5px auto;
+  }
+
+  .title-box {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+  }
+  
+  .subtitle-box {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 130%;
+    text-align: center;
+    color: #55206D;
+  }
+
+  .projects-section {
+    max-width: 400px;
+    margin: 50px auto 0px auto;
+  }
+
+  .check-title {
+    font-family: League Spartan;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    width: 300px;
+    margin: 0px auto;
+  }
+
+  .subtitle-check {
+    width: 300px;
+    margin: -15px auto 48px auto;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    text-align: center;
+    color: #190D37;
+  }
+
+  .div-project-name {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 10px;
+    margin-top: -25px;
+    margin: -25px auto 10px auto;
+  }
+
+  .div-pn {
+    display: flex;
+    background-color: #19ACFF;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+    border-radius: 10px;
+    position: relative;
+    top: -5px;
+  }
+  
+  .div-pn-description {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 8px;
+  }
+
+  .div-project-name .div-pn1 {
+    display: flex;
+    background-color: #e5ff00;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px;
+    border-radius: 10px;
+    position: relative;
+    top: -5px;
+  }
+
+  .div-project-name .div-pn3 {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px;
+    border-radius: 10px;
+    background-color: #FF1919;
+    position: relative;
+    top: -5px;
+  }
+
+  .footer {
+    height: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 12px;
+    cursor: pointer;
+    margin: 0px auto;
+  }
+
 }
 
-p {
-  margin: 0px;
-}
+/* Small devices (tablets)*/
+@media screen and (min-width: 576px) {}
 
-.hero-section {
-  display: flex;
-  max-width: 1414px;
-  margin: 0px auto 48px auto;
-}
+/* medium devices (laptabs)*/
+@media screen and (min-width: 768px) {}
 
-.left-section {
-  width: 50%;
-}
+/* large devices (desktops)*/
+@media screen and (min-width: 992px) {}
 
-.name-phone {
-  width: 500px;
-  display: flex;
-  justify-content: space-between;
-  font-family: Roboto;
-  font-size: 12px;
-  margin-left: 150px;
-  margin-top: 10px;
-  margin-bottom: 30px;
-}
 
-.div-phone,
-.div-email {
-  display: flex;
-  align-items: center;
-}
+/*
 
-.phone-email-image {
-  width: 15px;
-  height: 15px;
-  object-fit: cover;
-  margin-right: 2px;
-}
 
-.hi-im-ferdi {
-  width: 500px;
-  font-family: Inter;
-  font-weight: 500;
-  font-size: 16px;
-  margin-left: 150px;
-  color: #331E6A;
-  margin-bottom: 15px;
-}
 
-.title {
-  width: 500px;
-  font-family: League Spartan;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 50px;
-  margin-left: 150px;
-  color: #190D37;
-}
 
-.subtitle {
-  width: 500px;
-  font-family: Poppins;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 32px;
-  margin-left: 150px;
-  color: #331E6A;
-}
 
-.button {
-  width: 500px;
-  margin-left: 150px;
-  margin-top: 32px;
-}
 
-.button-style {
-  font-family: Inter;
-  font-weight: 700;
-  font-size: 18px;
-  background-color: #2F2F2F;
-  color: #FFFFFF;
-  border: none;
-  padding: 12px 24px;
-  border-radius: 3px;
-  cursor: pointer;
-}
-
-.button-style:hover {
-  opacity: 0.8;
-}
-
-.button-style:active {
-  opacity: 0.6;
-}
-
-.right-section {
-  width: 50%;
-}
-
-.what-i-do-section {
-  max-width: 1158.7px;
-  margin: 0px auto;
-}
-
-.experience {
-  font-family: League Spartan;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 40px;
-  width: 700px;
-  margin: 0px auto 10px auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.description {
-  width: 658px;
-  margin: 0px auto 10px auto;
-  font-family: Poppins;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
-  text-align: center;
-  color: #190D37;
-
-}
-
-.box-information {
-  margin-top: 48px;
-  display: flex;
-}
-
-.box {
-  width: 340px;
-  border: 1px solid black;
-  background-color: #FFFFFF;
-  padding: 15px;
-  margin: 0px 10px;
-}
-
-.title-box {
-  font-family: Poppins;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 100%;
-  text-align: center;
-  text-transform: uppercase;
-  margin-bottom: 10px;
-}
-
-.subtitle-box {
-  font-family: Inter;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0%;
-  text-align: center;
-  color: #55206D;
-}
-
-.projects-section {
-  max-width: 1060px;
-  margin: 52px auto 0px auto;
-}
-
-.check-title {
-  font-family: League Spartan;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 40px;
-  text-align: center;
-  width: 700px;
-  margin: 0px auto;
-}
-
-.subtitle-check {
-  width: 686px;
-  margin: 15px auto 48px auto;
-  font-family: Poppins;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 23px;
-  text-align: center;
-  color: #190D37;
-}
-
-.div-project-name {
-  display: flex;
-  align-items: center;
-  margin-bottom: 30px;
-
-}
-
-.div-pn {
-  display: flex;
-  background-color: #19ACFF;
-  padding: 40px;
-  align-items: center;
-  justify-content: center;
-  margin-right: 17px;
-  border-radius: 10px;
-}
-
-.div-pn-description {
-  font-family: Poppins;
-  font-weight: 700;
-  font-size: 18px;
-}
-
-.div-project-name .div-pn1 {
-  display: flex;
-  background-color: #e5ff00;
-  padding: 40px;
-  align-items: center;
-  justify-content: center;
-  margin-right: 17px;
-  border-radius: 10px;
-}
-
-.div-project-name .div-pn3 {
-  display: flex;
-  padding: 40px;
-  align-items: center;
-  justify-content: center;
-  margin-right: 17px;
-  border-radius: 10px;
-  background-color: #FF1919;
-  ;
-}
-
-.footer {
-  height: 58px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: black;
-  font-family: Poppins;
-  font-weight: 500;
-  font-size: 12px;
-  cursor: pointer;
-  margin: 0px auto;
-}
+*/
